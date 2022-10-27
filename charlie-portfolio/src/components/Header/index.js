@@ -10,9 +10,9 @@ function Header() {
           activeKey="/home"
           onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
-          <Nav.Item>
-            <Nav.Link href="/" className="head">Charles Duran</Nav.Link>
-          </Nav.Item>
+          {/* <Nav.Item>
+            <Nav.Link href="/" className="head">Home</Nav.Link>
+  </Nav.Item> */}
           <Navi></Navi>
         </Nav>
       </header>
