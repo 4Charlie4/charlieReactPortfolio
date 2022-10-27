@@ -4,14 +4,14 @@ import Nav from "react-bootstrap/Nav";
 
 function Header() {
   return (
-    <div className="container-fluid headBack pb-3 shadow">
-      <header className="row">
+    <div className="container-fluid headBack pb-4 shadow">
+      <header className="row pt-4">
         <Nav
           activeKey="/home"
           onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
           <Nav.Item>
-            <Nav.Link href="/" className="d-flex align-items-center">Charles Duran</Nav.Link>
+            <Nav.Link href="/" className="head">Charles Duran</Nav.Link>
           </Nav.Item>
           <Navi></Navi>
         </Nav>
