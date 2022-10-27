@@ -5,13 +5,13 @@ function Navi() {
   return (
     <div className="nav col d-flex justify-content-evenly ">
       <Nav.Item>
-        <Nav.Link href="#about" className="navItems ">
-          About
+        <Nav.Link href="#projects" className="navItems ">
+          Projects
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#projects" className="navItems">
-          Projects
+        <Nav.Link href="#home" className="navItems">
+          Home
         </Nav.Link>
       </Nav.Item>
       <Nav.Item>
