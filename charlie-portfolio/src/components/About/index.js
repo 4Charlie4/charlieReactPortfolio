@@ -33,8 +33,8 @@ function About() {
           <br></br> Back to a little bit more about me. I originally studied to
           be a kinesiologist, so naturally I love working out. But I love combat
           sports even more.<br></br>I am a Muay Thai fighter and wrestler at
-          heart. I hope to train jiu jitsu soon and mix it together with some
-          MMA (Maybe there is a role out<br></br> there for a Web
+          heart. I hope to train jiu jitsu soon and mix it all together with
+          some MMA (Maybe there is a role out<br></br> there for a Web
           Developer/Security ). I am also a huge nerd and love playing video
           games, my favorite right now being Elden Ring.<br></br>
           If it wasn't obvious I love a Challenge whether it is a jumping into a

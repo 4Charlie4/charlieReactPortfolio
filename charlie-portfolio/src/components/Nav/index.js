@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
+// import { Link, NavLink } from "react-router-dom";
 
 function Navi() {
   return (

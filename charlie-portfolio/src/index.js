@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./index.scss";
@@ -10,7 +13,9 @@ import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <Header />
       <App />
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

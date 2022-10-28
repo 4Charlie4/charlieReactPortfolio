@@ -1,22 +1,21 @@
 import React from "react";
-import Header from "./components/Header";
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Projects from "./components/Project";
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Project";
 
 function App() {
   return (
     <div>
-      <Header></Header>
       <main>
         <Routes>
-          <Route path="/" element={<About></About>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="*" element={<Home />} />
         </Routes>
-        <Projects></Projects>
       </main>
-      <Footer></Footer>
     </div>
   );
 }
