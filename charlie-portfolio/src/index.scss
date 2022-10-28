@@ -52,7 +52,7 @@ body {
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
-  animation-delay: 1s;
+  // animation-delay: 1s;
 }
  h2 {
   font-weight: 300;
@@ -89,6 +89,10 @@ body {
 // .footP {
 
 // }
+
+.homeH1 {
+  animation: lightSpeedInRight 2s forwards;
+}
 
 
 
