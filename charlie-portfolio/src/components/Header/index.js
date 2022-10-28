@@ -6,13 +6,7 @@ function Header() {
   return (
     <div className="container-fluid headBack pb-4 shadow">
       <header className="row pt-4">
-        <Nav
-          activeKey="/home"
-          onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-        >
-          {/* <Nav.Item>
-            <Nav.Link href="/" className="head">Home</Nav.Link>
-  </Nav.Item> */}
+        <Nav activeKey="/home">
           <Navi></Navi>
         </Nav>
       </header>
