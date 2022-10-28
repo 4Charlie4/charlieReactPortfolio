@@ -1,7 +1,7 @@
 :root {
   --primary-color: #4B4E4E;
   --secondary-color: #1f1022;
-  --tertiary-color: #D7263D;
+  --tertiary-color: #0d6efd;
   --accent-color: #FDF7FA;
 }
 
@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 -apple-system, BlinkMacSystemFont, 'Roboto' 'Helvetica Neue',
+  font: 300 11px/1.4 -apple-system, BlinkMacSystemFont, 'Roboto' 'sans-serif',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,6 +19,8 @@ body {
   overflow: hidden;
   /* This makes animations work some reason */
   display: block;
+  
+  color: var(--accent-color);
 }
 
 
@@ -28,8 +30,8 @@ body {
 }
 
 .head, .navItems {
-  background-color: var(--tertiary-color);
   color: var(--accent-color);
+  background-color: var(--tertiary-color);
   border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%  ;
 }
 
@@ -52,6 +54,12 @@ body {
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
+ h2 {
+  font-weight: 300;
+  font-style: italic;
+  
+
+}
 
 /* .content {
 
@@ -68,16 +76,19 @@ body {
   list-style: none;
   padding: 0;
 }
-
+// possibly will be added on hover effects later to this. Nice Purple ish maybe
 .social li 
 {
   a {
-    padding: 10px;
     font-size: 25px;
     line-height: 20px;
     
   }
 }
+
+// .footP {
+
+// }
 
 
 

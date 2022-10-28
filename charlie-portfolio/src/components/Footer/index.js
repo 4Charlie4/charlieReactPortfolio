@@ -6,7 +6,8 @@ function Footer() {
   return (
     <div className="footer container-fluid shadow">
       <footer className="row">
-        <ul className="d-flex justify-content-center social">
+      <p className="footP col">Please feel free to contact me. You can also check me out on Linkedin and Github.</p>
+        <ul className="d-flex col justify-content-center social">
           <li>
             <a
               target="_blank"
@@ -24,6 +25,7 @@ function Footer() {
             </a>
           </li>
         </ul>
+        
       </footer>
     </div>
   );
