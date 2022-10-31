@@ -4,7 +4,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function Navi() {
   return (
-    <div className="nav col d-flex justify-content-evenly ">
+    <div className="nav col-sm d-flex justify-content-evenly ">
       <Nav.Item>
         <LinkContainer to="/about">
           <Nav.Link className="navItems">About</Nav.Link>

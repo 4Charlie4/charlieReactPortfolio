@@ -4,13 +4,12 @@ import rateFood from "../../assets/rateTheFoodS.png";
 import basicTextPwa from "../../assets/basicTextPwaS.png";
 
 function Projects() {
-  const photos = [{ sleepSpace }, { rateFood }, { basicTextPwa }];
 
   return (
     <section className="myProject container-fluid">
-      <div className="projects row d-flex align-items-center">
-        <h2 className="homeAbout">Here are some of my projects</h2>
-        <div className="col-4">
+      <h2 className="homeAbout">Here are some of my projects</h2>
+      <div className="projects row d-flex ">
+        <div className="col-sm-4">
           <a href="https://github.com/4Charlie4/project-sleepSpace" data-content="SleepSpace" className="projLink">
             <img
               src={sleepSpace}
@@ -19,7 +18,7 @@ function Projects() {
             />
           </a>
         </div>
-        <div className="col-4">
+        <div className="col-sm-4">
           <a href="https://github.com/4Charlie4/rateYourFood" data-content="Rate The Food" className="projLink">
             <img
               src={rateFood}
@@ -28,7 +27,7 @@ function Projects() {
             />
           </a>
         </div>
-        <div className="col-4">
+        <div className="col-sm-4">
           <a href="https://github.com/4Charlie4/basicTextEditor" data-content="Basic Text Editor (PWA)" className="projLink">
             <img
               src={basicTextPwa}

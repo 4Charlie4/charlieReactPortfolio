@@ -135,7 +135,9 @@ button {
 }
 }
 
-
+.projects {
+  margin-top: 7rem;
+}
 
 .projLink {
   position: relative;
@@ -155,6 +157,10 @@ button {
 }
 .projLink:hover:after {
   opacity: 1;
+}
+
+.homeText {
+  top: 5rem;
 }
 
 

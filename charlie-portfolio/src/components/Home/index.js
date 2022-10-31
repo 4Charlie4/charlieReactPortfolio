@@ -2,10 +2,12 @@ import React from "react";
 
 function Home() {
   return (
-    <section className="row">
-      <div className="d-flex flex-column align-items-center">
-        <h1 className="homeAbout">Hey! I'm Charlie</h1>
-        <p></p>
+    <section className="container-fluid">
+      <div className="row ">
+        <div className="col-sm d-flex flex-column align-items-center">
+          <h1 className="homeAbout">Charles Duran</h1>
+          <p>Web Developer</p>
+        </div>
       </div>
     </section>
   );

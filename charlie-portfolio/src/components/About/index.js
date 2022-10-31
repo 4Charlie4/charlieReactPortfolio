@@ -2,13 +2,14 @@ import React from "react";
 
 function About() {
   return (
-    <section className="row aboutSect">
-      <div className="d-flex align-items-center flex-column content">
+    <section className="container-fluid aboutSect">
+      <div className="row d-flex align-items-center flex-column content">
         <h1>
           Charles Duran <br></br>a Web Developer
         </h1>
         <h2>Full Stack Developer | MERN | Javascript</h2>
         {/* Eventually want an img here even further than that hopefully a small gallery */}
+
         <p>
           {" "}
           I am a Full Stack Developer based in Orlando, Fl. I love anything tech
@@ -29,7 +30,8 @@ function About() {
           ones being<br></br> The ability to collaborate with teams,
           communication, grit, and adaptability. I have all kinds of people even
           from places around the world.<br></br> I can connect with anyone and
-          love meeting new people whether it is a team or client.<br></br>
+          love meeting new people whether it is a team or client.
+          {/* <br></br>
           <br></br> Back to a little bit more about me. I originally studied to
           be a kinesiologist, so naturally I love working out. But I love combat
           sports even more.<br></br>I am a Muay Thai fighter and wrestler at
@@ -42,7 +44,7 @@ function About() {
           <br></br> or training to fight, or playing a game. <br></br>
           <br></br>Thanks for Checking out my website! Take a look at my
           projects, or my socials. Any feedback in general would be greatly
-          appreciated so do reach out. I look forward to joining your team!
+          appreciated so do reach out. I look forward to joining your team! */}
         </p>
       </div>
     </section>
