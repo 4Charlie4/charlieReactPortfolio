@@ -90,7 +90,7 @@ body {
 
 // }
 
-.homeH1 {
+.homeAbout {
   animation: lightSpeedInRight 2s forwards;
 }
 
@@ -134,6 +134,34 @@ button {
   border: 0;
 }
 }
+
+
+
+.projLink {
+  position: relative;
+  width: 100%;
+}
+
+.projLink:after {
+  content: attr(data-content);
+  color: var(--accent-color);
+  position: absolute;
+  left: 1px;
+  text-align: left;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+}
+.projLink:hover:after {
+  opacity: 1;
+}
+
+
+
+
+
+
 
 
 

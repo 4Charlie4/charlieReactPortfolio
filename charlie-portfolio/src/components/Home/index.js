@@ -4,7 +4,7 @@ function Home() {
   return (
     <section className="row">
       <div className="d-flex flex-column align-items-center">
-        <h1 className="homeH1">Hey! I'm Charlie</h1>
+        <h1 className="homeAbout">Hey! I'm Charlie</h1>
         <p></p>
       </div>
     </section>
