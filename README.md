@@ -12,6 +12,7 @@
 My Portfolio website. Talks a little bit about me and showcases some projects. Will work on as a I get better and find some new cool things to add.
 
 ## Deployed Application
+https://shrieking-goosebumps-01165.herokuapp.com/
 
 ## Contact
 
