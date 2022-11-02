@@ -16,7 +16,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--primary-color);
-  overflow: hidden;
+  position: relative;
+  overflow: auto;
   /* This makes animations work some reason */
   display: block;
   
@@ -43,9 +44,8 @@ body {
 
 /* Will animate about section */
 .aboutSect {
-  width: 100%;
+  // width: 100%;
   will-change: contents;
-
   position: absolute;
   /* opacity: 0; */
   margin: 0 auto;
